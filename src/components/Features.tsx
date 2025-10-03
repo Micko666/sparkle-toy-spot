@@ -47,7 +47,7 @@ const Features = () => {
               className="text-center group hover:scale-105 transition-transform duration-300"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/10 mb-6 group-hover:shadow-lg transition-shadow">
+              <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-primary/15 to-accent/15 ring-1 ring-primary/20 mb-6 group-hover:shadow-lg transition-shadow">
                 <feature.icon className={`h-10 w-10 ${feature.color}`} />
               </div>
               <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
